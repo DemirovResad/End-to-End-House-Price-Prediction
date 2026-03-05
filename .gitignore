@@ -1,0 +1,38 @@
+# --- Python Keş Faylları ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Virtual Mühit (Environment) ---
+# Layihəni başqası yükləyəndə öz venv-ini yaratmalıdır
+venv/
+env/
+.venv/
+bin/
+include/
+lib/
+lib64/
+share/
+
+# --- Data Faylları ---
+# Skrapinq nəticəsində yaranan böyük faylları GitHub-a yükləmirik
+data/*.json
+data/*.csv
+data/*.xlsx
+data/*.sqlite3
+
+# --- Machine Learning Modelləri ---
+# Əgər model faylların (.joblib) çox böyükdürsə (100MB+), 
+# onları "Git LFS" ilə yükləməli və ya bura əlavə etməlisən.
+# model/*.joblib
+# model/*.pkl
+
+# --- IDE və Sistem Faylları ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/
