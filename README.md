@@ -38,8 +38,6 @@ machine learning models - Train models - Predict house prices
 
 ## 📸 Application Demo
 
-### Streamlit Dashboard
-
 <img src="Streamlit_img.png" width="900">
 ------------------------------------------------------------------------
 
