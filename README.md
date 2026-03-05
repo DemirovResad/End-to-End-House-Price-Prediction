@@ -35,6 +35,12 @@ Regression (SVR)
 Interactive interface where users can: - Input house features - Select
 machine learning models - Train models - Predict house prices
 
+
+## 📸 Application Demo
+
+### Streamlit Dashboard
+
+<img src="Streamlit_img.png" width="900">
 ------------------------------------------------------------------------
 
 # 📂 Project Structure
