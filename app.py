@@ -81,7 +81,7 @@ with st.container():
     # Sütunlara bölmək olar ki, yan-yana görünsünlər
     mode = st.radio(
         "Xais edirik bir Mode secin:",
-        ["Data Scraping", "Data Analiz", "Model Training", "House Predict"],
+        ["Data Scraping", "Model Training", "House Predict"],
         horizontal=True # Yan-yana istəyirsənsə True et
     )
 
